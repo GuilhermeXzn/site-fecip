@@ -194,8 +194,8 @@
    .grid-view{
        display: grid;
        grid-template-columns: repeat(auto-fit, minmax(150px,1fr)) ;
-       height: 300px;
-       margin: 3%;
+       height: 550px;
+       margin:  3% 3% 10% 3%;
        gap: 30px;
     
        
@@ -205,6 +205,48 @@
        display: flex;
        align-items: center;
        justify-content: center;
+   }
+   .box_game {
+    margin-top: 5%;
+    
+   }
+   .valor {
+    padding-top: 8%;
+    font-size: 1.8em;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(41, 179, 41);
+   }
+   .parcela {
+    padding-top: 1%;
+    font-size: 1.1em;
+    color: #c42e2e;
+    font-weight: bold;
+    font-family: sans-serif;
+   }
+   .fpag {
+    padding-top: 1%;
+   }
+   .btn {
+    margin-top: 8%;
+    width: 155px;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 0, 0);
+    border: 0;
+    color: #E0EEEE;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 300;
+   }
+   .title_game {
+    font-family: sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+   }
+   .valor_fpag {
+    font-weight: bold;
+    font-family: sans-serif;
    }
   
   
