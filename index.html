@@ -2,11 +2,15 @@
 <html lang="pt-br">
 
 <head>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.cycle.all.js"></script>
     <script type="text/javascript">
-
-
-
-
+     	$(document).ready(function() {
+			    $('#divbn').cycle({
+					fx: 'scrollLeft',
+					timeout:500
+				});
+			});
     </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -59,20 +63,22 @@
 
         </nav>
     </header>
+    
+
+    <div id="divbn">
+        
+            <img src="./img/banner.jpg" alt="" height="400px" width="100%">
+            <img src="./img/banner2.jpg" alt="" height="400px" width="100%">
+        
+    </div>
+    <img src="./img/fundoop.png" alt="" width="100%">
     <div id="divl">
         <img style="margin-left: px;" class="imganun" src="./img/cps.png" alt="">
         <img class="imganun" src="./img/cxb.png" alt="">
         <img id="imgdivl" src="./img/cnin.png" alt="">
 
     </div>
-
-    <div id="divbn">
-        <a href="lkmklmk">
-            <img src="./img/banner.jpg" alt="" height="400px" width="100%">
-        </a>
-    </div>
-    <img src="./img/fundoop.png" alt="" width="100%">
-
+    
     <div class="grid-view">
         <div class="styleBox" style="border: 1px solid #000; display: block;">
             <div>
@@ -125,10 +131,10 @@
         </div>
         <div class="styleBox" style="border: 1px solid #000; display: block;">
             <div>
-                <img style="align-self: flex-start " src="./img/forza.jpg" alt="" height="270px" width="100%">
+                <img style="align-self: flex-start " src="./img/tlou.webp" alt="" height="270px" width="100%">
             </div>
             <div class="box_game" style="display: block;">
-                <div class="title_game">Forza Horizon - Xbox</div>
+                <div class="title_game">The Last Of Us 2 - PS4</div>
                 <div class="valor"> R$ 200,00</div>
                 <div><span class="parcela"> até 4x de R$400 sem juros</span></div>
                 <div><span class="fpag"> ou <span class="valor_fpag"> R$ 284,90 </span> via pix</span></div>
@@ -137,10 +143,10 @@
         </div>
         <div class="styleBox" style="border: 1px solid #000; display: block;">
             <div>
-                <img style="align-self: flex-start " src="./img/forza.jpg" alt="" height="270px" width="100%">
+                <img style="align-self: flex-start " src="./img/pes22.jpg" alt="" height="270px" width="100%">
             </div>
             <div class="box_game" style="display: block;">
-                <div class="title_game">Forza Horizon - Xbox</div>
+                <div class="title_game">PES 2022 - PS4</div>
                 <div class="valor"> R$ 200,00</div>
                 <div><span class="parcela"> até 4x de R$400 sem juros</span></div>
                 <div><span class="fpag"> ou <span class="valor_fpag"> R$ 284,90 </span> via pix</span></div>
@@ -149,10 +155,10 @@
         </div>
         <div class="styleBox" style="border: 1px solid #000; display: block;">
             <div>
-                <img style="align-self: flex-start " src="./img/forza.jpg" alt="" height="270px" width="100%">
+                <img style="align-self: flex-start " src="./img/gowr.jpeg" alt="" height="270px" width="100%">
             </div>
             <div class="box_game" style="display: block;">
-                <div class="title_game">Forza Horizon - Xbox</div>
+                <div class="title_game">God Of War Ragnarok - PS4</div>
                 <div class="valor"> R$ 200,00</div>
                 <div><span class="parcela"> até 4x de R$400 sem juros</span></div>
                 <div><span class="fpag"> ou <span class="valor_fpag"> R$ 284,90 </span> via pix</span></div>
@@ -161,12 +167,12 @@
         </div>
         <div class="styleBox" style="border: 1px solid #000; display: block;">
             <div>
-                <img style="align-self: flex-start " src="./img/forza.jpg" alt="" height="270px" width="100%">
+                <img style="align-self: flex-start " src="./img/acval.jpg" alt="" height="270px" width="100%">
             </div>
             <div class="box_game" style="display: block;">
-                <div class="title_game">Forza Horizon - Xbox</div>
-                <div class="valor"> R$ 200,00</div>
-                <div><span class="parcela"> até 4x de R$400 sem juros</span></div>
+                <div class="title_game">Assassin's Creed Valhalla - Xbox</div>
+                <div class="valor"> R$ 600,00</div>
+                <div><span class="parcela"> até 3x de R$200 sem juros</span></div>
                 <div><span class="fpag"> ou <span class="valor_fpag"> R$ 284,90 </span> via pix</span></div>
                 <button class="btn">Comprar</button>
             </div>
@@ -190,12 +196,17 @@
             </div>
         </div> -->
     </div>
-    <footer class="div_full">
+    
+    
+    <!-- <footer class="div_full">
         <div class="div_rdp">B1</div>
         <div class="div_rdp">B2</div>
         <div class="div_rdp">B3</div>
         <div class="div_rdp">B4</div>
     </footer>
+    <div>
+        
+    </div> -->
 
     <!-- <div id="divlat">
         <fieldset>

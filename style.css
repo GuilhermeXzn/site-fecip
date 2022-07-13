@@ -200,17 +200,22 @@
        height: 550px;
        margin:  3% 3% 10% 3%;
        gap: 30px;
-       flex-wrap: wrap;
        
+       flex-wrap: wrap;
        padding-bottom: 1100px;
+       
+       
     
        
    }
+   
+   
    .grid-view div {
        text-align: center;
        display: flex;
        align-items: center;
        justify-content: center;
+       
        
 
    }
